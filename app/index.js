@@ -1,4 +1,5 @@
 import _ from 'lodash';
+const content = require('./content.js')
 
 function component () {
   var element = document.createElement('div');
@@ -10,3 +11,4 @@ function component () {
 }
 
 document.body.appendChild(component());
+document.write(content)
